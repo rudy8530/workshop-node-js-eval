@@ -1,3 +1,10 @@
 exports.run = function(input) {
-  console.log("Exercise #2");
+  var length= input.length;
+  var str =""
+    for(var i=0;i<length;i++){
+      if(input[i]<6){
+        str=str+input[i]
+      }
+    }
+    return str
 };
